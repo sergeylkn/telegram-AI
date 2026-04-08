@@ -19,3 +19,4 @@ __all__ = [
     "ModeEvent",
     "ProcessedUpdate",
 ]
+"""Application package."""
