@@ -1,6 +1,12 @@
 [project]
 name = "telegram-ai"
 version = "0.1.0"
+description = "Telegram AI handoff bot skeleton"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+addopts = "-q"
 description = "Telegram webhook processor"
 requires-python = ">=3.10"
 dependencies = [
